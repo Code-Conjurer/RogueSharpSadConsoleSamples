@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RogueSharpSadConsoleSamples", "RogueSharpSadConsoleSamples\RogueSharpSadConsoleSamples.csproj", "{6294F96D-6977-4A46-9516-ED5D009AC6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{84AD4C83-6D4F-4ECE-8A19-AC04CEC2405F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{6294F96D-6977-4A46-9516-ED5D009AC6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6294F96D-6977-4A46-9516-ED5D009AC6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6294F96D-6977-4A46-9516-ED5D009AC6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AD4C83-6D4F-4ECE-8A19-AC04CEC2405F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AD4C83-6D4F-4ECE-8A19-AC04CEC2405F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AD4C83-6D4F-4ECE-8A19-AC04CEC2405F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AD4C83-6D4F-4ECE-8A19-AC04CEC2405F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B811497-C867-431C-865F-43B4963FEC70}
 	EndGlobalSection
 EndGlobal
